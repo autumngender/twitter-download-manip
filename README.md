@@ -17,6 +17,7 @@ For an IDE, I'd reccomend you use IDLE, which comes pre-installed with Python.
 
 [tweets-js-cull-lines.py](https://github.com/autumngender/twitter-download-manip/blob/main/tweets-js-cull-lines.py) - A piece of code that gives you two outputs - "tweets_only.txt" (a file containing every tweet you've ever sent (with some extra elements that can be removed), and "trash.txt" (excess metadata). 
 > As of **v2.1.0**, this also removes retweets from your file, as they're not tweets that you specifically wrote.
+
 > As of **v2.1.1**, this also removes internal Twitter links for media and QRTs, as well as punctuation.
 
 If you wanted to turn your tweets into a wordcloud of your most used words, you can do so!
