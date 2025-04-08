@@ -1,8 +1,8 @@
 import re
 
 oldfile = open('tweets.js','r')
-newfile = open('newfile.txt','w')
-newfile2 = open('newfile2.txt','w')
+newfile = open('tweets_only.txt','w')
+newfile2 = open('trash.txt','w')
 
 for line in oldfile:
     if re.search('full_text',line):
