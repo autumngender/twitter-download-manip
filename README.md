@@ -10,9 +10,8 @@ This is the file you'll be getting all your data from. Copy this across to an em
 ## 3. Ensure Python and a Python IDE are installed. 
 Python can be downloaded at https://www.python.org/downloads/.
 For an IDE, I'd reccomend you use IDLE, which comes pre-installed with Python.
-
 ## 4. Download and run the Python code that you want to use.
-> Before trying to get any code to work, make sure your downloaded .py files are in the same folder as your *tweets.js* file.
+> Before trying to get any code to work, make sure your downloaded .py files are in the same folder as your *tweets.js* file. Open the IDE of your choice, and go to File > Open, then File > Run (or equivalent).
 
 [mention-text-counter.py](https://github.com/autumngender/twitter-download-manip/blob/main/mention-text-counter.py) - A simple piece of code that calculates how many times a user has been mentioned in your tweets. Allows for searching of any word, but unless your *tweets.js* file has been run through the other code, it will likely give innacurate counts, as the file at this point is unedited.
 
