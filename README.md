@@ -14,9 +14,9 @@ For an IDE, I'd reccomend you use IDLE, which comes pre-installed with Python.
 ## 4. Download and run the Python code that you want to use.
 > Before trying to get any code to work, make sure your downloaded .py files are in the same folder as your *tweets.js* file.
 
-[mention-text-counter.py] - A simple piece of code that calculates how many times a user has been mentioned in your tweets. Allows for searching of any word, but unless your *tweets.js* file has been run through the other code, it will likely give innacurate counts, as the file at this point is unedited.
+[mention-text-counter.py](https://github.com/autumngender/twitter-download-manip/blob/main/mention-text-counter.py) - A simple piece of code that calculates how many times a user has been mentioned in your tweets. Allows for searching of any word, but unless your *tweets.js* file has been run through the other code, it will likely give innacurate counts, as the file at this point is unedited.
 
-[tweets-js-cull-lines.py] - A piece of code that gives you two outputs - "tweets_only.txt" (a file containing every tweet you've ever sent (with some extra elements that can be removed), and "trash.txt" (excess metadata).
+[tweets-js-cull-lines.py](https://github.com/autumngender/twitter-download-manip/blob/main/tweets-js-cull-lines.py) - A piece of code that gives you two outputs - "tweets_only.txt" (a file containing every tweet you've ever sent (with some extra elements that can be removed), and "trash.txt" (excess metadata).
 
 > If you wanted to turn your tweets into a wordcloud of your most used words, you can do this with a few extra steps.
 > > ## 1. Use https://gillmeister-software.com/online-tools/text/filter-and-remove-lines.aspx to remove retweets.
