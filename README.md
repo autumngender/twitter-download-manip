@@ -15,12 +15,11 @@ For an IDE, I'd reccomend you use IDLE, which comes pre-installed with Python.
 
 [mention-text-counter.py](https://github.com/autumngender/twitter-download-manip/blob/main/mention-text-counter.py) - A simple piece of code that calculates how many times a user has been mentioned in your tweets. Allows for searching of any word, but unless your *tweets.js* file has been run through the other code, it will likely give innacurate counts, as the file at this point is unedited.
 
-[tweets-js-cull-lines.py](https://github.com/autumngender/twitter-download-manip/blob/main/tweets-js-cull-lines.py) - A piece of code that gives you two outputs - "tweets_only.txt" (a file containing every tweet you've ever sent (with some extra elements that can be removed), and "trash.txt" (excess metadata). **As of v2.0.0, this also removes retweets from your file, as they're not tweets that you specifically wrote.**
+[tweets-js-cull-lines.py](https://github.com/autumngender/twitter-download-manip/blob/main/tweets-js-cull-lines.py) - A piece of code that gives you two outputs - "tweets_only.txt" (a file containing every tweet you've ever sent (with some extra elements that can be removed), and "trash.txt" (excess metadata). 
+> As of **v2.1.0**, this also removes retweets from your file, as they're not tweets that you specifically wrote.
+> > As of **v2.1.1**, this also removes internal Twitter links for media and QRTs, as well as punctuation.
 
-If you wanted to turn your tweets into a wordcloud of your most used words, you can do this with a few extra steps.
-> ## 1. Use the "Find and Replace" tool in a word processor (Notepad, TextEdit, etc)
-Find the following text: ```     "full_text" : ``` (copy the block as it is, with all spaces), and replace it with nothing. This gives you a pretty clean list of everything you've ever tweeted.
-> ## 3. Create a wordcloud.
-Any site works, but I used https://worditout.com/word-cloud/create. Paste in your formatted text from "tweets_only.txt", and click Generate.
+If you wanted to turn your tweets into a wordcloud of your most used words, you can do so!
+Any site works, but I used https://worditout.com/word-cloud/create. Paste in your formatted text from "tweets_wc.txt", and click Generate.
 
 ### This is my entry back into coding, and I hope this is a useful tool! Let me know if you have any ideas or find any bugs. Thank you!
